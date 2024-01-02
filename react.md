@@ -17,5 +17,8 @@ npm start ou npm run dev
 ```
 
 ## Fonctionnement
-En react, tous les composants sont des "fonctions"
-Tout composant react doit retourner un élément JSX
+En react, tous les composants sont des "fonctions".  
+Tout composant react doit retourner un élément JSX.  
+Pour rendre disponible un composant, il faut l'exporter.  
+En react, "<></>" permet de rendre le DOM plus lisible.  
+React mets à jour le DOM avec des hooks : Ceux sont des fonctions qui commencent par use (convention).  
