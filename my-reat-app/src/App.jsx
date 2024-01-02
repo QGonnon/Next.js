@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import './App.css'
+import Header from './components/Header/Header';
 import Main from './components/Main/Main';
-import PropsExemple from './components/PropsExemple/PropsExemple';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [name, setName]=useState("React")
@@ -16,13 +17,9 @@ function App() {
   }
   return (
     <>
-      <header>
-        Mini-projet React 
-      </header>
-      <Main/>
-      <footer>
-        Quentin GONNON - Isitech RPI D
-      </footer>
+      <Header />
+      <Main />
+      <Footer />
     </>
   )
 }
