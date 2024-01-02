@@ -1,0 +1,26 @@
+.article{
+    border: 2px solid #888;
+    border-radius: 5px;
+    width: 640px;
+    height: 480px;
+}
+
+.article > header{
+    border-bottom: 2px solid #888;
+    text-align: left;
+    width: 100%;
+    font-weight: bold;
+    background-color: #888;
+    color: #FFF;
+}
+
+.article > header > div{
+    padding: 5px;
+}
+
+.article > main {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
