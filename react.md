@@ -15,3 +15,7 @@ npm install
 
 npm start ou npm run dev
 ```
+
+## Fonctionnement
+En react, tous les composants sont des "fonctions"
+Tout composant react doit retourner un élément JSX
