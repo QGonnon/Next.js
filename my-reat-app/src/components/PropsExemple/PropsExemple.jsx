@@ -2,12 +2,16 @@ import { useState } from "react"
 
 
 export default function PropsExemple({name, childClickHandler}) {
-  const localName = name
+  const [visible, setVisible] = useState(true)
 
   return (
     <>
       <div className="card">{name}</div>
-      <button onClick={()=>{childClickHandler('test')}}>click me !</button>
+      <button onClick={()=>{childClickHandler('test');setVisible(!visible)}}>click me !</button>
+      <br />
+      <br />
+      <br />
+      {visible && <>test</>}
     </>
   )
 }
