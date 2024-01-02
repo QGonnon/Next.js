@@ -22,10 +22,13 @@ Tout composant react doit retourner un élément JSX.
 Pour rendre disponible un composant, il faut l'exporter.  
 En react, "<></>" permet de rendre le DOM plus lisible.  
 React mets à jour le DOM avec des hooks : Ceux sont des fonctions qui commencent par use (convention).  
-Les composants React communiquent entre eux avec des props. Tout composant peut recevoir des props en parametre. Les Props sont des objets dont l'utilisation est similaire a celle des atttributs HTML.
+ 
+
+### Props
+Les composants React communiquent entre eux avec des props.
+- Tout composant peut recevoir des props en parametre. 
+- Les Props sont des objets dont l'utilisation est similaire a celle des atttributs HTML.
+- Chaque props possède un attribut "children" permettant d'accéder aux éléments HTML/JSX dans la balise englobante.
 
 ### Hooks
 - UseState : on peut utiliser une fonction pour mettre à jour le state. Cette syntaxe est utile quand on veut mettre un state dont la valeur dépend de la valeur précédente
-
-# CSS
-## Container
