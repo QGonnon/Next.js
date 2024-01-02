@@ -2,15 +2,15 @@
 
 - [x] Créer un nouveau projet React avec vite
 - [x] Créer un composant `App`
-- [ ] Créer un composant `Header`
-- [ ] Créer un composant `Footer`
-- [ ] Créer un composant `Main` qui affiche un profil utilisateur
-- [ ] Utilisez un formulaire dont l'affichage est conditionné par un bouton
-- [ ] Le fromulaire doit permettre de modifier le profil utilisateur
-- [ ] utilisez les modules CSS
-- [ ] Utilisez les props
-- [ ] Utilisez les states
-- [ ] L'application doit etre responsive (mobile first)
+- [x] Créer un composant `Header`
+- [x] Créer un composant `Footer`
+- [x] Créer un composant `Main` qui affiche un profil utilisateur
+- [X] Utilisez un formulaire dont l'affichage est conditionné par un bouton
+- [X] Le fromulaire doit permettre de modifier le profil utilisateur
+- [X] utilisez les modules CSS
+- [X] Utilisez les props
+- [X] Utilisez les states
+- [X] L'application doit etre responsive (mobile first)
 
 Partie 2:
 
