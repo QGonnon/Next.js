@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css'
-import Profile from './components/Profile/Profile';
+import Main from './components/Main/Main';
 import PropsExemple from './components/PropsExemple/PropsExemple';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
       <header>
         Mini-projet React 
       </header>
-      <Profile/>
+      <Main/>
       <footer>
         Quentin GONNON - Isitech RPI D
       </footer>
