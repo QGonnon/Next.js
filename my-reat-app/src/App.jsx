@@ -16,9 +16,13 @@ function App() {
   }
   return (
     <>
-      <h1>Vite + React</h1>
+      <header>
+        Mini-projet React 
+      </header>
       <Profile/>
-      <PropsExemple name={name} childClickHandler={onClickHandler}/>
+      <footer>
+        Quentin GONNON - Isitech RPI D
+      </footer>
     </>
   )
 }
