@@ -7,9 +7,9 @@ React est une bibliothèque JS qui permet de creer facilement des interfaces uti
 ## Installation
 
 ```
-npm create vite@latest my-reat-app --template react
+npm create vite@latest my-react-app --template react
 
-cd my-reat-app
+cd my-react-app
 
 npm install
 
