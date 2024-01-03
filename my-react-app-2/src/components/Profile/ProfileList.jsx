@@ -1,15 +1,19 @@
+import styles from './ProfileList.module.css'
 import React from 'react'
 
 export default function ProfileList({data}) {
+  console.log(data)
   return (
     <div>
-      {data.map((e=>{
-        <article key={e.id}>
-          <div>{data.first_name}</div>
-          <div>{data.last_name}</div>
-          <div>{data.email}</div>
+      {data.map((e)=>(
+        <>
+        <article key={e.id} className={styles.article}>
+          <div>{e.first_name}</div>
+          <div>{e.last_name}</div>
+          <div>{e.email}</div>
         </article>
-      }))}
+        </>
+      ))}
     </div>
   )
 }
