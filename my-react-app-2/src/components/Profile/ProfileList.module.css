@@ -4,6 +4,7 @@
     border-radius: 5px;
     width: 45%;
     height: 65%;
+    text-align: center;
 }
 
 @media (max-width:750px) {
