@@ -36,3 +36,6 @@ Les composants React communiquent entre eux avec des props.
 - useContext : 
 
 utiliser usecontext et api context pour créer un store pour bcp de point
+
+# NEXTJS
+app est le dossier comportant touts les composants destiner à devenir une page de l'application
