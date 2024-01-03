@@ -1,0 +1,46 @@
+.article{
+    border: 2px solid #888;
+    background-color: #FFF;
+    border-radius: 5px;
+    width: 45%;
+    height: 65%;
+    text-align: center;
+}
+
+@media (max-width:750px) {
+    .article{
+        width: 80%;
+        height: 65%;
+        font-size: smaller;
+    }
+}
+
+@media (min-width:750px) and (max-width:900px) {
+    .article{
+        width: 60%;
+        height: 65%;
+    }
+}
+
+.article > form {
+    height: 100%;
+}
+
+.article main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+}
+
+.article > button {
+    height: 15%;
+}
+
+.article main > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
