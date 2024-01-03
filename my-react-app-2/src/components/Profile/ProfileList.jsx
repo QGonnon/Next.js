@@ -1,11 +1,15 @@
 import styles from './ProfileList.module.css'
-import React from 'react'
+import React, { useContext } from 'react'
+import { FilterProfileListContext } from '../../context/FilterProfileList';
 
 export default function ProfileList({data}) {
+  const filterDOB = useContext(FilterProfileListContext);
+  console.log(filterDOB)
   return (
     <>
       {data.map((e)=>(
-        <article key={e.id} className={styles.article}>
+        ((filterDOB=="*"||filterDOB==""||filterDOB==e.dateOfBirth)&&
+          <article key={e.id} className={styles.article}>
           <main>
             <div>Prénom : {e.first_name}</div>
             <div>Nom : {e.last_name}</div>
@@ -13,7 +17,7 @@ export default function ProfileList({data}) {
             <div>Date de naissance : {e.dateOfBirth}</div>
           </main>
         </article>
-        
+        )
       )).reverse()}
     </>
   )

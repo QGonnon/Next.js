@@ -2,14 +2,15 @@
     border: 2px solid #888;
     background-color: #FFF;
     border-radius: 5px;
-    width: 45%;
+    width: 43%;
     height: 65%;
     text-align: center;
+    padding: 1%;
 }
 
 @media (max-width:750px) {
     .article{
-        width: 80%;
+        width: 78%;
         height: 65%;
         font-size: smaller;
     }
@@ -17,7 +18,7 @@
 
 @media (min-width:750px) and (max-width:900px) {
     .article{
-        width: 60%;
+        width: 58%;
         height: 65%;
     }
 }

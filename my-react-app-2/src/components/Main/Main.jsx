@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import styles from './Main.module.css'
-import ProfiletForm from '../Profile/ProfileForm'
+import ProfileForm from '../Profile/ProfileForm'
 import ProfiletList from '../Profile/ProfileList'
+import { FilterProfileListProvider } from '../../context/FilterProfileList'
+import ProfileFormFilter from '../Profile/ProfileFormFilter'
 
 function Main() {
   const [data, setData] = useState([
@@ -72,9 +74,13 @@ function Main() {
   }
   return (
     <div className={styles.main}>
-      <ProfiletForm childAddProduct={AddProduct} />
+      <ProfileForm childAddProduct={AddProduct} />
       <br />
-      <ProfiletList data={data} />
+      <ProfileFormFilter/>
+      <br />
+      <FilterProfileListProvider>
+        <ProfiletList data={data} />
+      </FilterProfileListProvider>
     </div>
   )
 }
