@@ -61,10 +61,10 @@ function Main() {
     setData((prevState) => ([...prevState, { "id": prevState[prevState.length - 1].id + 1, first_name, last_name, email }]))
   }
   return (
-    <>
+    <div className={styles.main}>
       <ProfiletForm childAddProduct={AddProduct}/>
       <ProfiletList data={data} />
-    </>
+    </div>
   )
 }
 
