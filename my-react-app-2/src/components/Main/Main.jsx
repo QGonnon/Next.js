@@ -63,6 +63,7 @@ function Main() {
   return (
     <div className={styles.main}>
       <ProfiletForm childAddProduct={AddProduct}/>
+      <br />
       <ProfiletList data={data} />
     </div>
   )
