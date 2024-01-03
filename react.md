@@ -32,7 +32,7 @@ Les composants React communiquent entre eux avec des props.
 
 ### Hooks
 - UseState : on peut utiliser une fonction pour mettre à jour le state. Cette syntaxe est utile quand on veut mettre un state dont la valeur dépend de la valeur précédente
-
-useEffect
+- useEffect : permet d'ajouter un "listener" sur une constante "réactive" (créer avec un useState). On peut donc ainsi executer du code logique s'executant à chaque rafraichissement de la constante (situé dans le paramètre "dependencies" du hook) avec la fonction issus du useState
+- useContext : 
 
 utiliser usecontext et api context pour créer un store pour bcp de point
