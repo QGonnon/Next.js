@@ -40,9 +40,44 @@ utiliser usecontext et api context pour créer un store pour bcp de point
 # NEXTJS
 app est le dossier comportant touts les composants destiner à devenir une page de l'application
 
+## Présentation de Next.js
+
+Next.js est un framework pour React, conçu pour la production et l'efficacité. Il offre plusieurs avantages :
+
+**Server-Side Rendering (SSR)** : Next.js permet le rendu côté serveur des pages web, ce qui améliore la performance et le SEO.
+**Static Site Generation (SSG)** : Possibilité de générer des sites statiques pour une vitesse de chargement rapide.
+Routing Automatique : Les fichiers dans le dossier pages deviennent automatiquement des routes.
+**Optimisation des Performances** : Next.js inclut des fonctionnalités comme l'optimisation automatique des images.
+Facilité de Déploiement : Intégration simple avec des plateformes comme Vercel pour un déploiement rapide.
+
+## Installation et Configuration de Base
+
+Pour installer Next.js, vous pouvez utiliser `npx create-next-app` ou `yarn create next-app`. Vous pouvez aussi utiliser `npm init next-app` ou `yarn create next-app` pour créer un projet Next.js à partir de zéro.
+
+Pour ce cours, nous allons utiliser `npx create-next-app` pour créer un projet Next.js à partir d'un template. Pour cela, exécutez la commande suivante dans votre terminal :
+
+```bash
+
+npx create-next-app --example with-tailwindcss nextjs-course
+
+```
+
+Cette commande va créer un nouveau dossier nextjs-course avec un projet Next.js préconfiguré avec Tailwind CSS. Vous pouvez ensuite ouvrir le dossier dans votre éditeur de code favori.
+
+Pour lancer le projet, exécutez la commande suivante :
+
+```bash
+
+cd nextjs-course
+npm run dev
+
+```
+
+Vous pouvez ensuite ouvrir http://localhost:3000 pour voir le résultat.
+
 ## Structure de Projet Next.js 14
 
-La structure de projet par défaut 
+La structure de projet par défaut est la suivante :
 
 ```bash
 
