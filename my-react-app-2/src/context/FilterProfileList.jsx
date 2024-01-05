@@ -6,7 +6,7 @@ export const FilterProfileListProvider = ({ children }) => {
     const [filterProfileList, setFilterProfileList] = useState('')
  
     return (
-        <FilterProfileListContext.Provider value={ filterProfileList }>
+        <FilterProfileListContext.Provider value={ [filterProfileList, setFilterProfileList] }>
             {children}
         </FilterProfileListContext.Provider>
     )

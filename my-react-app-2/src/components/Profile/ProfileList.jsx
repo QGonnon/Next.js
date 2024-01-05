@@ -3,7 +3,7 @@ import React, { useContext } from 'react'
 import { FilterProfileListContext } from '../../context/FilterProfileList';
 
 export default function ProfileList({data}) {
-  const filterDOB = useContext(FilterProfileListContext);
+  const [filterDOB, setfilterDOB] = useContext(FilterProfileListContext);
   console.log(filterDOB)
   return (
     <>
