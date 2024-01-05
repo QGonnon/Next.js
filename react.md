@@ -144,7 +144,7 @@ export default function Page() {
 
 ### Grouper les routes
 
-Dans le dossier app, les dossiers correspondent normalement a des routes. Cependant, on peut empecher ce fonctionnement en pla^ant le nom d'un dossier entre parenthèses. Par exemple, si on veut que le dossier `blog` ne soit pas une route, on peut le renommer en `(blog)`.
+Dans le dossier app, les dossiers correspondent normalement a des routes. Cependant, on peut empecher ce fonctionnement en placant le nom d'un dossier entre parenthèses. Par exemple, si on veut que le dossier `blog` ne soit pas une route, on peut le renommer en `(blog)`.
 
 On pourra ainsi organiser les portions de route de facon logique sans impacter l'url.
 
